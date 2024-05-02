@@ -1,0 +1,679 @@
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .header {
+        padding: 25px 0px;
+        gap: 15px;
+        padding-top: 50px;
+    }
+
+    .header-menu a {
+        color: #fff;
+        background-color: #008fe852;
+        border-radius: 5px;
+    }
+
+    .introduction-bg {
+        padding: 50px 15px;
+    }
+
+    .introduction {
+        grid-template-columns: 1fr;
+    }
+
+    .introduction h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 32px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .introduction p {
+        margin-bottom: 50px;
+    }
+
+    .main-image-smaller-screen {
+        display: none;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .how-we-do-bg {
+        padding: 50px 15px;
+    }
+
+    .how-we-do h1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin-bottom: 32px;
+    }
+
+    #websites-we-develop-bg {
+        padding: 50px 15px;
+    }
+
+    .websites-we-develop h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .websites-we-develop p {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    .cards-sites {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .budget-bg {
+        padding: 50px 8px;
+    }
+
+    .budget p {
+        font-size: 20px;
+    }
+
+    .action-button-budget {
+        width: 223px;
+        font-size: 20px;
+    }
+
+    #form-bg {
+        padding: 50px 15px;
+    }
+
+    .form {
+        grid-template-columns: 1fr;
+        padding: 30px 13px;
+        box-sizing: border-box;
+        min-width: 235px;
+    }
+
+    .form-contact h1 {
+        font-size: 30px;
+        padding-bottom: 35px;
+    }
+
+    .form-contact p {
+        font-size: 12px;
+    }
+
+    .form .col-2 {
+        grid-column: 1;
+    }
+
+    .footer-bg {
+        padding: 10px 15px;
+    }
+
+    .botao-col-2 {
+        font-size: 16px;
+        padding: 12px 28px;
+        width: 209px;
+    }
+
+
+    #btnTop {
+        display: none;
+    }
+
+    [data-anime="left"] {
+        transform: translate3d(-8px, 0, 0);
+    }
+
+    [data-anime="right"] {
+        transform: translate3d(8px, 0, 0);
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .header {
+        padding: 25px 0px;
+        gap: 15px;
+        padding-top: 50px;
+    }
+
+    .header-menu a {
+        color: #fff;
+        background-color: #008fe852;
+        border-radius: 5px;
+    }
+
+    .introduction {
+        grid-template-columns: 1fr;
+    }
+
+    .introduction-bg {
+        padding: 50px 15px;
+    }
+
+    .introduction h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 32px;
+    }
+
+    .title {
+        font-size: 65px;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .main-image-smaller-screen {
+        display: none;
+    }
+
+    .how-we-do-bg {
+        padding: 50px 15px;
+    }
+
+    .how-we-do h1 {
+        font-size: 32px;
+        margin-bottom: 70px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin-bottom: 32px;
+    }
+
+    #websites-we-develop-bg {
+        padding: 50px 15px;
+    }
+
+    .websites-we-develop h1 {
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+
+    .websites-we-develop p {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .cards-sites {
+        grid-template-columns: 1fr;
+    }
+
+    .budget-bg {
+        padding: 50px 15px;
+    }
+
+    .budget p {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    .action-button-budget {
+        width: 250px;
+        font-size: 18px;
+    }
+
+    #form-bg {
+        padding: 50px 15px;
+    }
+
+    .form {
+        grid-template-columns: 1fr;
+        padding: 30px 13px;
+        box-sizing: border-box;
+    }
+
+    .form .col-2 {
+        grid-column: 1;
+    }
+
+    .form-contact p {
+        font-size: 12px;
+    }
+
+    .form-contact h1 {
+        font-size: 32px;
+        padding-bottom: 35px;
+    }
+
+    .footer-bg {
+        padding: 10px 15px;
+    }
+
+    .botao-col-2 {
+        font-size: 18px;
+    }
+
+    #btnTop {
+        display: none;
+    }
+
+    [data-anime="left"] {
+        transform: translate3d(-12px, 0, 0);
+    }
+
+    [data-anime="right"] {
+        transform: translate3d(12px, 0, 0);
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 800px) {
+    .header {
+        padding: 25px 0px;
+        padding-top: 50px;
+        gap: 15px;
+    }
+
+    .introduction-bg {
+        padding: 50px 15px;
+    }
+
+    .introduction {
+        gap: 0px 42px;
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 70px;
+    }
+
+    .introduction h1 {
+        font-size: 34px;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+
+    .introduction p {
+        margin-bottom: 38px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .action-button {
+        margin-bottom: 38px;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .main-image-smaller-screen {
+        display: flex;
+        width: 100%;
+        height: 260px;
+        margin-bottom: 38px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .how-we-do-bg {
+        padding: 50px 15px;
+    }
+
+    .how-we-do h1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 60px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        margin-bottom: 32px;
+    }
+
+    #websites-we-develop-bg {
+        padding: 50px 15px;
+    }
+
+    .websites-we-develop h1 {
+        font-size: 38px;
+    }
+
+    .websites-we-develop p {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .cards-sites {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .budget-bg {
+        padding: 50px 15px;
+    }
+
+    .budget p {
+        font-size: 20px;
+    }
+
+    .action-button-budget {
+        font-size: 20px;
+    }
+
+    #form-bg {
+        padding: 50px 15px;
+    }
+
+    .form-contact h1 {
+        font-size: 38px;
+    }
+
+    .form-contact p {
+        font-size: 14px;
+    }
+
+    .footer-bg {
+        padding: 10px 15px;
+    }
+
+    .botao-col-2 {
+        font-size: 20px;
+    }
+
+    #btnTop {
+        display: none;
+    }
+
+    [data-anime="left"] {
+        transform: translate3d(-15px, 0, 0);
+    }
+
+    [data-anime="right"] {
+        transform: translate3d(15px, 0, 0);
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 960px) {
+    .header {
+        padding: 25px 0px;
+        padding-top: 50px;
+    }
+
+    .introduction-bg {
+        padding: 50px 15px;
+    }
+
+    .introduction {
+        gap: 0px 20px;
+    }
+
+    .title {
+        font-size: 70px;
+    }
+
+    .main-image {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .introduction h1 {
+        font-size: 34px;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+
+    .introduction p {
+        margin-bottom: 38px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .main-image-smaller-screen {
+        display: none;
+    }
+
+    .how-we-do-bg {
+        padding: 50px 15px;
+    }
+
+    .how-we-do h1 {
+        font-size: 34px;
+        margin-bottom: 80px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #websites-we-develop-bg {
+        padding: 50px 15px;
+    }
+
+    .websites-we-develop h1 {
+        font-size: 34px;
+    }
+
+    .websites-we-develop p {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .cards-sites {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .budget-bg {
+        padding: 50px 15px;
+    }
+
+    .action-button-budget {
+        font-size: 18px;
+        width: 250px;
+    }
+
+    #form-bg {
+        padding: 50px 15px;
+    }
+
+    .form-contact h1 {
+        font-size: 34px;
+    }
+
+    .form-contact p {
+        font-size: 12px;
+    }
+
+    .budget p {
+        font-size: 24px;
+    }
+
+    .footer-bg {
+        padding: 10px 20px;
+    }
+
+    .botao-col-2 {
+        font-size: 18px;
+        width: 260px;
+    }
+
+    #btnTop {
+        display: none;
+    }
+
+    [data-anime="left"] {
+        transform: translate3d(-15px, 0, 0);
+    }
+
+    [data-anime="right"] {
+        transform: translate3d(15px, 0, 0);
+    }
+
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+    .header {
+        padding: 25px 70px;
+        padding-top: 50px;
+    }
+
+    .introduction-bg {
+        padding: 85px 70px;
+    }
+
+    .introduction h1 {
+        font-size: 42px;
+        line-height: 45px;
+        margin-bottom: 32px;
+    }
+
+    .title {
+        font-size: 95px;
+    }
+    
+    .main-image-smaller-screen {
+        display: none;
+    }
+
+    .main-image {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .introduction p {
+        font-size: 18px;
+    }
+
+    .how-we-do-bg {
+        padding: 85px 70px;
+    }
+
+    .cards {
+        gap: 83px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #websites-we-develop-bg {
+        padding: 85px 70px;
+    }
+
+    .budget-bg {
+        padding: 85px 70px;
+    }
+
+    #form-bg {
+        padding: 85px 70px;
+    }
+
+    .footer-bg {
+        padding: 15px 70px;
+    }
+
+    #btnTop {
+        bottom: 50px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        padding: 25px 135px;
+        padding-top: 50px;
+    }
+
+    .introduction-bg {
+        padding: 100px 150px;
+    }
+
+    .title {
+        font-size: 100px;
+    }
+
+    .introduction h1 {
+        font-size: 47px;
+        line-height: 52px;
+        margin-bottom: 50px;
+    }
+
+    .introduction p {
+        margin-bottom: 85px;
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .main-image {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main-image-smaller-screen {
+        display: none;
+    }
+
+    .how-we-do-bg {
+        padding: 100px 150px;
+    }
+
+    #websites-we-develop-bg {
+        padding: 85px 150px;
+    }
+
+    .budget-bg {
+        padding: 100px 150px;
+    }
+
+    #form-bg {
+        padding: 85px 150px;
+    }
+
+    .footer-bg {
+        padding: 15px 150px;
+    }
+
+    #btnTop {
+        right: 45px;
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        background-color: #000517;
+    }
+
+    main {
+        width: 1300px;
+        margin: auto;
+    }
+
+    section {
+        width: 1300px;
+        margin: auto;
+    }
+}
